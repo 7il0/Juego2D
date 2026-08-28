@@ -25,6 +25,12 @@ public class contadorMonedas : MonoBehaviour
         UpdateCoinText();
     }
 
+    // Permite que otros scripts (por ejemplo la meta) consulten si ya se recogieron todas
+    public bool TodasRecogidas()
+    {
+        return collectedCoins >= totalCoins;
+    }
+
     void UpdateCoinText()
     {
         coinText.text = collectedCoins + "/" + totalCoins;
