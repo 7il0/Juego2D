@@ -1991,8 +1991,8 @@ Transform:
   m_GameObject: {fileID: 312844554}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08, y: -5.96, z: 0}
-  m_LocalScale: {x: 24.170696, y: 0.9244389, z: 1.8037833}
+  m_LocalPosition: {x: 0.15, y: -8.62, z: 0}
+  m_LocalScale: {x: 87.558105, y: 0.5544322, z: 3.4618208}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -2643,7 +2643,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -3196,7 +3196,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.0179, y: -0.0109, z: 0}
-  m_LocalScale: {x: 0.50865114, y: 0.34625897, z: 0.42218634}
+  m_LocalScale: {x: 0.6167395, y: 0.47610608, z: 0.42218634}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -3472,8 +3472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b745502b5247e914ea9b459f415835b4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::meta
-  requiereTodasLasMonedas: 1
-  escenaSiguiente: 
 --- !u!19719996 &949325182
 TilemapCollider2D:
   m_ObjectHideFlags: 0
