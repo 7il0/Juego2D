@@ -1,15 +1,12 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
+/// <summary>
+/// Meta del nivel. Solo se gana llegando aqui con todas las monedas recogidas.
+/// </summary>
 public class meta : MonoBehaviour
 {
-    // Si esta activo, el jugador debe recoger todas las monedas antes de poder terminar el nivel
-    [SerializeField] private bool requiereTodasLasMonedas = true;
-
-    // Nombre de la escena a cargar al ganar. Si se deja vacio, se reinicia la escena actual
-    [SerializeField] private string escenaSiguiente = "";
-
     private contadorMonedas contador;
+    private bool nivelGanado;
 
     private void Start()
     {
@@ -19,33 +16,20 @@ public class meta : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (!collision.CompareTag("Player"))
+        // nivelGanado evita que el panel se cree dos veces si el trigger vuelve a dispararse
+        if (nivelGanado || !collision.CompareTag("Player"))
         {
             return;
         }
 
-        // La meta se bloquea mientras falten monedas por recoger
-        if (requiereTodasLasMonedas && contador != null && !contador.TodasRecogidas())
+        // Sin contador no hay forma de verificar las monedas, asi que no se permite ganar
+        if (contador == null || !contador.TodasRecogidas())
         {
             Debug.Log("Aun faltan monedas por recoger.");
             return;
         }
 
-        GanarNivel();
-    }
-
-    private void GanarNivel()
-    {
-        Debug.Log("Nivel completado!");
-
-        if (string.IsNullOrEmpty(escenaSiguiente))
-        {
-            // Sin escena siguiente configurada, se reinicia el nivel actual
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        }
-        else
-        {
-            SceneManager.LoadScene(escenaSiguiente);
-        }
+        nivelGanado = true;
+        panelVictoria.Mostrar();
     }
 }

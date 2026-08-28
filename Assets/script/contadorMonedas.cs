@@ -18,10 +18,6 @@ public class contadorMonedas : MonoBehaviour
     public void CoinColleted()
     {
         collectedCoins++;
-        if (collectedCoins == totalCoins)
-        {
-            LoadNextLevel();
-        }
         UpdateCoinText();
     }
 
@@ -34,10 +30,5 @@ public class contadorMonedas : MonoBehaviour
     void UpdateCoinText()
     {
         coinText.text = collectedCoins + "/" + totalCoins;
-    }
-
-    void LoadNextLevel()
-    {
-
     }
 }
