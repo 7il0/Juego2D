@@ -1069,7 +1069,7 @@ GameObject:
   - component: {fileID: 237722162}
   - component: {fileID: 237722161}
   m_Layer: 5
-  m_Name: Contador
+  m_Name: Contadorr
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2304,6 +2304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a210a7f15fbc06e44b465e731eb6c419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::contadorMonedas
+  coinText: {fileID: 237722161}
 --- !u!114 &1597066298
 MonoBehaviour:
   m_ObjectHideFlags: 0

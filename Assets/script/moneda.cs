@@ -6,10 +6,9 @@ public class moneda : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            // Aquí puedes agregar la lógica para cuando el jugador recoja la moneda
-            // Por ejemplo, aumentar el puntaje del jugador
-            Debug.Log("Moneda recogida!");
-            Destroy(gameObject); // Destruye la moneda después de ser recogida
+            contadorMonedas uiManager = Object.FindObjectOfType<contadorMonedas>();
+            uiManager.CoinColleted();
+            Destroy(gameObject); // Destruye la moneda despuï¿½s de ser recogida
         }
     }
 }
