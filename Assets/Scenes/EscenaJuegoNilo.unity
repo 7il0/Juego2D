@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 38357768}
   - component: {fileID: 38357767}
   m_Layer: 3
-  m_Name: Tilemap
+  m_Name: Bloques
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1489,7 +1489,7 @@ GameObject:
   - component: {fileID: 162650069}
   - component: {fileID: 162650068}
   m_Layer: 0
-  m_Name: Grid
+  m_Name: ObjetosEscenario
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3438,7 +3438,7 @@ GameObject:
   - component: {fileID: 904174311}
   - component: {fileID: 904174310}
   m_Layer: 0
-  m_Name: Background_0
+  m_Name: Fondo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5379,7 +5379,7 @@ GameObject:
   - component: {fileID: 1851205355}
   - component: {fileID: 1851205354}
   m_Layer: 0
-  m_Name: puas (3)
+  m_Name: puas 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5860,7 +5860,7 @@ GameObject:
   - component: {fileID: 2009693199}
   - component: {fileID: 2009693198}
   m_Layer: 0
-  m_Name: Tilemap decorations
+  m_Name: Descoraciones
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
