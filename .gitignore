@@ -42,5 +42,3 @@ sysinfo.txt
 Thumbs.db
 
 # Package manager
-Packages/manifest.json
-Packages/packages-lock.json
