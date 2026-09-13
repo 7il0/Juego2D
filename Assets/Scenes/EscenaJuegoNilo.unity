@@ -18456,6 +18456,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::bandera
   numero: 2
+  sonidoCheckpoint: {fileID: 8300000, guid: b909b92a6a7c33846b2c87d9681ea3b5, type: 3}
+  duracionMensaje: 3
 --- !u!61 &912717891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20115,7 +20117,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cac3e92ce2398ed4aa17de7caae4c29c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::puas
-  sonidoGolpe: {fileID: 0}
+  sonidoGolpe: {fileID: 8300000, guid: eb3b1ea7de6454d4cbb791f17ec04bfc, type: 3}
 --- !u!483693784 &1089896266
 TilemapRenderer:
   serializedVersion: 2
@@ -27940,6 +27942,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::bandera
   numero: 1
+  sonidoCheckpoint: {fileID: 8300000, guid: b909b92a6a7c33846b2c87d9681ea3b5, type: 3}
+  duracionMensaje: 3
 --- !u!61 &1952852443
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28972,6 +28976,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::bandera
   numero: 3
+  sonidoCheckpoint: {fileID: 8300000, guid: b909b92a6a7c33846b2c87d9681ea3b5, type: 3}
+  duracionMensaje: 3
 --- !u!61 &2097961221
 BoxCollider2D:
   m_ObjectHideFlags: 0
