@@ -19,6 +19,9 @@ public class PlayerController : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+
+        // Punto de reaparicion por defecto si el jugador aun no pisa ninguna bandera
+        GameManager.Instance.RegistrarSpawnInicial(transform.position);
     }
 
     // Update is called once per frame

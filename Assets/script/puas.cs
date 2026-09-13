@@ -6,7 +6,7 @@ public class puas : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            GameManager.Instance.PerderVidaYReiniciar();
+            GameManager.Instance.Morir();
         }
     }
 }

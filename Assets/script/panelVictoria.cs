@@ -2,7 +2,6 @@ using System.Collections;
 using TMPro;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 /// <summary>
@@ -150,7 +149,8 @@ public class panelVictoria : MonoBehaviour
     {
         // Se restaura el tiempo antes de recargar, si no la escena nueva queda congelada
         Time.timeScale = 1f;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        // Al ganar y volver a jugar se reinicia todo (vidas y checkpoint), no solo la escena
+        GameManager.Instance.ReiniciarPartida();
     }
 
     private IEnumerator AnimarEntrada()
