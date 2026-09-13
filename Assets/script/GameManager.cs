@@ -2,11 +2,9 @@ using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/// <summary>
 /// Controla las vidas y el punto de reaparicion (checkpoint) del jugador.
 /// Persiste entre recargas de escena (DontDestroyOnLoad) para que las vidas
 /// sobrevivan a un Game Over y el checkpoint sobreviva mientras no se reinicia la partida.
-/// </summary>
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance { get; private set; }
@@ -60,10 +58,8 @@ public class GameManager : MonoBehaviour
         audioMusica.Play();
     }
 
-    /// <summary>
     /// Llamado por el jugador al iniciar, para tener un punto de reaparicion
     /// aunque todavia no haya pisado ninguna bandera.
-    /// </summary>
     public void RegistrarSpawnInicial(Vector3 posicion)
     {
         if (puntoReaparicion == null)
@@ -72,10 +68,8 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Llamado por una bandera al ser pisada. Solo actualiza el checkpoint si es
     /// una bandera mas avanzada que la ultima registrada.
-    /// </summary>
     public void ActualizarCheckpoint(Vector3 posicion, int numero)
     {
         if (numero <= checkpointNumero)
@@ -87,11 +81,9 @@ public class GameManager : MonoBehaviour
         puntoReaparicion = posicion;
     }
 
-    /// <summary>
     /// Descuenta una vida. Si quedan vidas, el jugador reaparece en el ultimo
     /// checkpoint sin recargar la escena (las monedas ya recogidas no se pierden).
     /// Si las vidas llegan a cero, se muestra el panel de Game Over.
-    /// </summary>
     public void Morir()
     {
         VidasActuales--;
@@ -132,19 +124,15 @@ public class GameManager : MonoBehaviour
         }
     }
 
-    /// <summary>
     /// Suma una vida al recoger un corazon, sin pasar del maximo permitido.
-    /// </summary>
     public void GanarVida()
     {
         VidasActuales = Mathf.Min(VidasActuales + 1, vidasMaximas);
         VidasCambiaron?.Invoke(VidasActuales);
     }
 
-    /// <summary>
     /// Reinicio completo de la partida: vidas, checkpoint y escena (monedas incluidas)
     /// vuelven a su estado inicial. Se usa desde el boton del panel de Game Over.
-    /// </summary>
     public void ReiniciarPartida()
     {
         VidasActuales = vidasIniciales;

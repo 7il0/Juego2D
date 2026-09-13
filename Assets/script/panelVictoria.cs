@@ -4,18 +4,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-/// <summary>
 /// Construye por codigo el dialogo flotante de victoria.
 /// Se genera en tiempo de ejecucion para no depender de referencias del Inspector.
-/// </summary>
 public class panelVictoria : MonoBehaviour
 {
     private RectTransform tarjeta;
     private CanvasGroup grupo;
 
-    /// <summary>
     /// Punto de entrada: crea el panel y congela el juego.
-    /// </summary>
     public static void Mostrar()
     {
         GameObject raiz = new GameObject("PanelVictoria");
@@ -172,9 +168,7 @@ public class panelVictoria : MonoBehaviour
         tarjeta.localScale = Vector3.one;
     }
 
-    /// <summary>
     /// Crea un GameObject de UI ya emparentado y con RectTransform.
-    /// </summary>
     private GameObject NuevoElemento(string nombre, Transform padre)
     {
         GameObject elemento = new GameObject(nombre, typeof(RectTransform));

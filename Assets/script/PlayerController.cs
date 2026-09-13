@@ -71,10 +71,8 @@ public class PlayerController : MonoBehaviour
         isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkRadius, groundLayer);
     }
 
-    /// <summary>
     /// Elige que clip debe sonar segun el mismo estado que ya usa el Animator,
     /// y solo reinicia el AudioSource cuando el clip realmente cambia.
-    /// </summary>
     private void ActualizarSonidoDeEstado()
     {
         AudioClip clipDeseado;

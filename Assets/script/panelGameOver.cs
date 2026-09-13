@@ -4,18 +4,14 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-/// <summary>
 /// Construye por codigo el dialogo flotante de derrota, cuando las vidas llegan a cero.
 /// Mismo enfoque que panelVictoria: se genera en tiempo de ejecucion sin depender del Inspector.
-/// </summary>
 public class panelGameOver : MonoBehaviour
 {
     private RectTransform tarjeta;
     private CanvasGroup grupo;
 
-    /// <summary>
     /// Punto de entrada: crea el panel y congela el juego.
-    /// </summary>
     public static void Mostrar()
     {
         GameObject raiz = new GameObject("PanelGameOver");
@@ -171,9 +167,7 @@ public class panelGameOver : MonoBehaviour
         tarjeta.localScale = Vector3.one;
     }
 
-    /// <summary>
     /// Crea un GameObject de UI ya emparentado y con RectTransform.
-    /// </summary>
     private GameObject NuevoElemento(string nombre, Transform padre)
     {
         GameObject elemento = new GameObject(nombre, typeof(RectTransform));

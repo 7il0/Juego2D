@@ -3,11 +3,9 @@ using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-/// <summary>
 /// Aviso flotante y no bloqueante que confirma que se activo un nuevo checkpoint.
 /// A diferencia de los paneles de victoria/derrota, no congela el juego: aparece,
 /// se mantiene un momento y se desvanece sola.
-/// </summary>
 public class panelCheckpoint : MonoBehaviour
 {
     private CanvasGroup grupo;

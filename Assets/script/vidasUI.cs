@@ -1,9 +1,7 @@
 using TMPro;
 using UnityEngine;
 
-/// <summary>
 /// Muestra en pantalla las vidas actuales, leyendo el valor desde GameManager.
-/// </summary>
 public class vidasUI : MonoBehaviour
 {
     [SerializeField] private TMP_Text vidasText;

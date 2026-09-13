@@ -1,9 +1,7 @@
 using UnityEngine;
 
-/// <summary>
 /// Hace que la camara siga al jugador con un suavizado y, opcionalmente,
 /// sin salir de los limites del nivel.
-/// </summary>
 public class CameraFollow : MonoBehaviour
 {
     [SerializeField] private Transform objetivo;

@@ -1,8 +1,6 @@
 using UnityEngine;
 
-/// <summary>
 /// Meta del nivel. Solo se gana llegando aqui con todas las monedas recogidas.
-/// </summary>
 public class meta : MonoBehaviour
 {
     private contadorMonedas contador;
