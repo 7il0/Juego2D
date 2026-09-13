@@ -15294,7 +15294,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &349409477
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17865,7 +17865,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &821756603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20190,7 +20190,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1086211000
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -25837,7 +25837,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1295591350
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26711,7 +26711,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1454594516
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26878,7 +26878,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1520347859
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27045,7 +27045,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1533041473
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27212,7 +27212,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1565313970
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27830,7 +27830,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1760011360
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -27982,7 +27982,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 1
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!61 &1825266523
 BoxCollider2D:
   m_ObjectHideFlags: 0
