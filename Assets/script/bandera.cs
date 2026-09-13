@@ -10,6 +10,7 @@ public class bandera : MonoBehaviour
 {
     [SerializeField] private int numero = 1;
     [SerializeField] private AudioClip sonidoCheckpoint;
+    [SerializeField] [Range(0f, 1f)] private float volumen = 1f;
 
     // Segundos que el aviso permanece visible antes de desvanecerse
     [SerializeField] private float duracionMensaje = 1.6f;
@@ -28,7 +29,7 @@ public class bandera : MonoBehaviour
 
         if (sonidoCheckpoint != null)
         {
-            AudioSource.PlayClipAtPoint(sonidoCheckpoint, transform.position);
+            AudioSource.PlayClipAtPoint(sonidoCheckpoint, transform.position, volumen);
         }
 
         panelCheckpoint.Mostrar(numero, duracionMensaje);

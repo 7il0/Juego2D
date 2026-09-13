@@ -16,6 +16,9 @@ public class GameManager : MonoBehaviour
     // Evita que recoger corazones de mas infle las vidas sin limite
     [SerializeField] private int vidasMaximas = 10;
 
+    [SerializeField] private AudioClip musicaFondo;
+    [SerializeField] [Range(0f, 1f)] private float volumenMusica = 0.4f;
+
     public int VidasActuales { get; private set; }
 
     // La UI se suscribe a este evento en vez de que este script conozca a la UI directamente
@@ -38,6 +41,23 @@ public class GameManager : MonoBehaviour
         Instance = this;
         DontDestroyOnLoad(gameObject);
         VidasActuales = vidasIniciales;
+
+        IniciarMusicaDeFondo();
+    }
+
+    private void IniciarMusicaDeFondo()
+    {
+        if (musicaFondo == null)
+        {
+            return;
+        }
+
+        AudioSource audioMusica = gameObject.AddComponent<AudioSource>();
+        audioMusica.clip = musicaFondo;
+        audioMusica.volume = volumenMusica;
+        audioMusica.loop = true;
+        audioMusica.playOnAwake = false;
+        audioMusica.Play();
     }
 
     /// <summary>

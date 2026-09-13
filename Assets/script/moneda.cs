@@ -3,6 +3,7 @@ using UnityEngine;
 public class moneda : MonoBehaviour
 {
     [SerializeField] private AudioClip sonidoRecoger;
+    [SerializeField] [Range(0f, 1f)] private float volumen = 1f;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -15,7 +16,7 @@ public class moneda : MonoBehaviour
             {
                 // PlayClipAtPoint crea su propio AudioSource temporal, asi el sonido
                 // no se corta al destruir la moneda en este mismo frame
-                AudioSource.PlayClipAtPoint(sonidoRecoger, transform.position);
+                AudioSource.PlayClipAtPoint(sonidoRecoger, transform.position, volumen);
             }
 
             Destroy(gameObject); // Destruye la moneda despues de ser recogida

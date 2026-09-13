@@ -17,9 +17,16 @@ public class PlayerController : MonoBehaviour
 
     // Un sonido en loop por cada estado (igual que las 4 animaciones: respirar, caminar, saltar, caida)
     [SerializeField] private AudioClip sonidoEstatico;
+    [SerializeField] [Range(0f, 1f)] private float volumenEstatico = 1f;
+
     [SerializeField] private AudioClip sonidoAvanzar;
+    [SerializeField] [Range(0f, 1f)] private float volumenAvanzar = 1f;
+
     [SerializeField] private AudioClip sonidoSaltar;
+    [SerializeField] [Range(0f, 1f)] private float volumenSaltar = 1f;
+
     [SerializeField] private AudioClip sonidoCaer;
+    [SerializeField] [Range(0f, 1f)] private float volumenCaer = 1f;
 
     private AudioSource audioEstado;
 
@@ -71,15 +78,24 @@ public class PlayerController : MonoBehaviour
     private void ActualizarSonidoDeEstado()
     {
         AudioClip clipDeseado;
+        float volumenDeseado;
 
         if (!isGrounded)
         {
             // En el aire: subiendo es "saltar", bajando es "caida"
-            clipDeseado = rb2D.linearVelocity.y > 0f ? sonidoSaltar : sonidoCaer;
+            bool subiendo = rb2D.linearVelocity.y > 0f;
+            clipDeseado = subiendo ? sonidoSaltar : sonidoCaer;
+            volumenDeseado = subiendo ? volumenSaltar : volumenCaer;
+        }
+        else if (move != 0f)
+        {
+            clipDeseado = sonidoAvanzar;
+            volumenDeseado = volumenAvanzar;
         }
         else
         {
-            clipDeseado = move != 0f ? sonidoAvanzar : sonidoEstatico;
+            clipDeseado = sonidoEstatico;
+            volumenDeseado = volumenEstatico;
         }
 
         if (audioEstado.clip == clipDeseado)
@@ -88,6 +104,7 @@ public class PlayerController : MonoBehaviour
         }
 
         audioEstado.clip = clipDeseado;
+        audioEstado.volume = volumenDeseado;
 
         if (clipDeseado != null)
         {
