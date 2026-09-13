@@ -14166,16 +14166,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 130163858}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 4.2860327, y: 4.4643955, z: 0.99116004}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1597066301}
+  m_Father: {fileID: 1825919257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -102, y: -25}
+  m_AnchoredPosition: {x: -338.41965, y: -314.5979}
   m_SizeDelta: {x: 201, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &130163860
@@ -14227,8 +14227,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -14325,6 +14325,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &145955270
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14505,6 +14506,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &151077681
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14718,6 +14720,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &179145050
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -14868,6 +14871,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &179762241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -15238,16 +15242,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 237722159}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 5.0246696, y: 4.80653, z: 1.0809046}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1597066301}
+  m_Father: {fileID: 1825919257}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 122.70001, y: -32}
+  m_AnchoredPosition: {x: 550.48425, y: -281.26648}
   m_SizeDelta: {x: 201, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &237722161
@@ -15297,8 +15301,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 24
-  m_fontSizeBase: 24
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -15883,6 +15887,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &406954601
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16033,6 +16038,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &424386113
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16213,6 +16219,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &437811390
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -16363,6 +16370,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &450605462
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17122,6 +17130,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &617963348
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17392,6 +17401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &628392163
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17770,6 +17780,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &753431455
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -17935,6 +17946,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &779301871
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18182,6 +18194,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &793491516
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18265,6 +18278,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &806167137
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -18597,6 +18611,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &840799095
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19081,6 +19096,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &884564725
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -19548,6 +19564,145 @@ Transform:
   - {fileID: 1195345288}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &948897569
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 948897570}
+  - component: {fileID: 948897572}
+  - component: {fileID: 948897571}
+  m_Layer: 5
+  m_Name: Laberinto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &948897570
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948897569}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.307784, y: 4.7710423, z: 1.0088001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1825919257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 77.49225, y: -35.31305}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &948897571
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948897569}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: '---------  Laberinto 3D  ------
+
+'
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 14
+  m_fontSizeBase: 14
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -115.12188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &948897572
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 948897569}
+  m_CullTransparentMesh: 1
 --- !u!1 &949325177
 GameObject:
   m_ObjectHideFlags: 0
@@ -19907,6 +20062,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &961399374
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -20207,6 +20363,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 745366012}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!1 &984090727
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 984090728}
+  - component: {fileID: 984090730}
+  - component: {fileID: 984090729}
+  m_Layer: 5
+  m_Name: nilo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &984090728
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984090727}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.307784, y: 4.7710423, z: 1.0088001}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1825919257}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 77.49225, y: 7.4767914}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &984090729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984090727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: ------------------- Nilo Uel Curo Vila -------------------
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 8
+  m_fontSizeBase: 8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_characterHorizontalScale: 1
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_TextWrappingMode: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 0
+  m_ActiveFontFeatures: 6e72656b
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_EmojiFallbackSupport: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: -115.12188, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &984090730
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 984090727}
+  m_CullTransparentMesh: 1
 --- !u!1 &1004548854
 GameObject:
   m_ObjectHideFlags: 0
@@ -20485,6 +20778,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1048688957
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -25611,6 +25905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1145097922
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26126,6 +26421,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1194059799
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26276,6 +26572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1195345285
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26456,6 +26753,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1266395534
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26621,6 +26919,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1288955288
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26771,6 +27070,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1302972241
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -26936,6 +27236,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1317218546
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27116,6 +27417,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1318358809
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -27281,6 +27583,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1384238072
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28049,8 +28352,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1825919257}
-  - {fileID: 237722160}
-  - {fileID: 130163859}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -28105,6 +28406,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1661774725
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28270,6 +28572,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1698063105
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -28602,6 +28905,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1748368136
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29081,15 +29385,19 @@ RectTransform:
   m_GameObject: {fileID: 1825919256}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 0.18678473, z: 1}
+  m_LocalScale: {x: 0.23125346, y: 0.22201437, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 237722160}
+  - {fileID: 130163859}
+  - {fileID: 948897570}
+  - {fileID: 984090728}
   m_Father: {fileID: 1597066301}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.7999878, y: 116.8}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -305.7203, y: 192.74}
+  m_SizeDelta: {x: 13.6617, y: -154.42}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825919258
 MonoBehaviour:
@@ -29104,7 +29412,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
+  m_Color: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 0.7372549}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -29328,6 +29636,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1900455999
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29554,6 +29863,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1911102394
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29719,6 +30029,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1932011743
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -29869,6 +30180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &1932077589
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -30225,6 +30537,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f537e6e576e066144aad3a04e16e7dab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::moneda
+  sonidoRecoger: {fileID: 0}
 --- !u!58 &2003390087
 CircleCollider2D:
   m_ObjectHideFlags: 0
