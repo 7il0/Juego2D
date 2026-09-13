@@ -14863,6 +14863,10 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 8
   animator: {fileID: 0}
+  sonidoEstatico: {fileID: 0}
+  sonidoAvanzar: {fileID: 8300000, guid: e0cb2ea2891b9564db44afb518343adb, type: 3}
+  sonidoSaltar: {fileID: 8300000, guid: 28c5ebb6d53c9a440801ff9e6213ee5f, type: 3}
+  sonidoCaer: {fileID: 8300000, guid: e671dc83fb7771240ac05a6eaa193b97, type: 3}
 --- !u!95 &194771562
 Animator:
   serializedVersion: 7
@@ -16851,7 +16855,7 @@ Transform:
   m_GameObject: {fileID: 729303203}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 2.93547, y: 2.63321, z: 0}
+  m_LocalPosition: {x: 3.43, y: 2.47, z: 0}
   m_LocalScale: {x: 0.020693237, y: 0.042248014, z: 0.86742}
   m_ConstrainProportionsScale: 0
   m_Children: []
