@@ -16259,11 +16259,11 @@ MonoBehaviour:
   objetivo: {fileID: 0}
   tiempoSuavizado: 0.15
   offset: {x: 0, y: 0}
-  usarLimites: 0
-  limiteIzquierdo: 0
-  limiteDerecho: 0
-  limiteInferior: 0
-  limiteSuperior: 0
+  usarLimites: 1
+  limiteIzquierdo: -35
+  limiteDerecho: 58
+  limiteInferior: -16
+  limiteSuperior: 21
 --- !u!1 &525974872
 GameObject:
   m_ObjectHideFlags: 0
