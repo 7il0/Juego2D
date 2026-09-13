@@ -29386,7 +29386,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e4f348f6a2d90e42bd3926a5f24282f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
-  vidasIniciales: 1
+  vidasIniciales: 10
   vidasMaximas: 20
 --- !u!4 &1900912029
 Transform:

@@ -70,8 +70,7 @@ public class panelVictoria : MonoBehaviour
         GameObject panel = NuevoElemento("Tarjeta", transform);
 
         Image imagen = panel.AddComponent<Image>();
-        imagen.sprite = SpriteRedondeado();
-        imagen.type = Image.Type.Sliced;
+        imagen.type = Image.Type.Simple;
         imagen.color = new Color(0.10f, 0.15f, 0.27f, 1f);
 
         tarjeta = panel.GetComponent<RectTransform>();
@@ -95,8 +94,7 @@ public class panelVictoria : MonoBehaviour
     {
         GameObject franja = NuevoElemento("Franja", padre);
         Image imagen = franja.AddComponent<Image>();
-        imagen.sprite = SpriteRedondeado();
-        imagen.type = Image.Type.Sliced;
+        imagen.type = Image.Type.Simple;
         imagen.color = new Color(1f, 0.80f, 0.25f);
 
         RectTransform rect = franja.GetComponent<RectTransform>();
@@ -129,8 +127,7 @@ public class panelVictoria : MonoBehaviour
         GameObject boton = NuevoElemento("BotonReiniciar", padre);
 
         Image imagen = boton.AddComponent<Image>();
-        imagen.sprite = SpriteRedondeado();
-        imagen.type = Image.Type.Sliced;
+        imagen.type = Image.Type.Simple;
         imagen.color = new Color(0.20f, 0.62f, 0.42f);
 
         RectTransform rect = boton.GetComponent<RectTransform>();
@@ -183,14 +180,6 @@ public class panelVictoria : MonoBehaviour
         GameObject elemento = new GameObject(nombre, typeof(RectTransform));
         elemento.transform.SetParent(padre, false);
         return elemento;
-    }
-
-    /// <summary>
-    /// Sprite de esquinas redondeadas que Unity trae incorporado.
-    /// </summary>
-    private Sprite SpriteRedondeado()
-    {
-        return Resources.GetBuiltinResource<Sprite>("UI/Skin/UISprite.psd");
     }
 
     private void AsegurarEventSystem()
