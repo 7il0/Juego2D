@@ -29,6 +29,6 @@ public class contadorMonedas : MonoBehaviour
 
     void UpdateCoinText()
     {
-        coinText.text = collectedCoins + "/" + totalCoins;
+        coinText.text = "Monedas: " + collectedCoins + "/" + totalCoins;
     }
 }

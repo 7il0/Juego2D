@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class over : MonoBehaviour
 {
@@ -7,7 +6,7 @@ public class over : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+            GameManager.Instance.PerderVidaYReiniciar();
         }
     }
 }
